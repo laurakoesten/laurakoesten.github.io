@@ -28,12 +28,17 @@ body {
     border-left-color: #337ab7;
 }
 
+img.featurette-image {
+  border-radius: 3px;
+  border: solid 1px #bbb;
+}
+
 h4.paper-title {
   margin-bottom: 5px;
 
 }
 p.authors {
-  
+
 }
 
 div.abstract p {

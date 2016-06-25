@@ -16,8 +16,31 @@ body {
   padding: 10px;
 }
 
-#linkedin {
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 0 solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout-paper {
+    border-left-color: #337ab7;
+}
+
+h4.paper-title {
+  margin-bottom: 5px;
+
+}
+p.authors {
   
+}
+
+div.abstract p {
+  padding-top: 8px;
+}
+
+#linkedin {
 }
 
 #linkedin img {

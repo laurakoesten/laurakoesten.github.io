@@ -1,0 +1,115 @@
+/*This is a CSS comment */
+
+body {
+  background: rgb(255,255,255);
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main {background: rgba(255,255,255,0.9);
+  width:90%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+h1 {
+    text-align: right;
+    /*background: rgb(245,255,250);*/
+    font-size: 40px;
+    margin: 30px;
+    padding: 30px
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: normal;
+    /*text-decoration: underline;*/
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 2px 2px 2px yellow;
+    /*font-family: 'Codystar', cursive;*/
+}
+h2 {
+    text-align: right;;
+    background: lightgrey;
+    border: 10px solid lightgrey;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 50px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+img {
+  /*centering the image */
+  display: blocks;
+  float: right;
+  /*margin-left: auto;
+  margin-right: auto; same as below: */
+  margin: 0 auto;
+  border: 10px solid white;
+  border-radius: 50%;*/
+  background: white;
+
+}
+.circular--square {
+  border-radius: 50%;
+}
+h3 {
+    line-height: 1.6;
+    list-style: none;
+    padding-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0;
+}
+
+
+h3 {
+cursor: pointer;
+}
+
+h3 + * {
+    display: none;
+}
+
+p,
+ol,
+ul {
+    line-height: 1.6;
+    list-style: none;
+    padding-left: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 5px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 200px;
+}
+a:hover {
+    text-decoration: underline;
+    color: #990000;
+}
+
+.right {width: 50%;
+    height: 1000px;
+    background-color: transparent;
+    float: right;
+    border-radius: 20px;
+
+}
+
+.left { width: 50%;
+    height: 1000px;
+    /*background-color:rgba(255,192,203,0.9);*/
+    float: left;
+    border-radius: 20px;
+}

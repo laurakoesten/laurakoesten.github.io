@@ -81,7 +81,7 @@
 
         <div class="col-md-7">
           <div class="abstract">
-            <p>Structured data is becoming critical in every domain and its availability on the web is increasing rapidly. Despite its abundance and variety of applications, we know very little about how people find data, understand it, and put it to use. This work aims to inform the design of data discovery tools and technologies from a user centred perspective. ...</p>
+            <p>Structured data is becoming critical in every domain and its availability on the web is increasing rapidly. Despite its abundance and variety of applications, we know very little about how people find data, understand it, and put it to use. This work aims to inform the design of data discovery tools and technologies from a user centred perspective. We aim to better understand what type of information supports people in finding and selecting data relevant for their respective tasks. We conducted a mixed-methods study looking at the workflow of data practitioners when searching for data. From that we identified textual summaries as a key element that supports the decision making process in information seeking activities for data. Based on these results we performed a mixed-methods study to identify attributes people choose when summarising a dataset. We found text summaries are laid out according to common structures, contain four main information types, and cover a set of dataset features. We describe follow-up studies that are planned to validate these findings and to evaluate their applicability in a dataset search scenario.</p>
 
           </div>
         </div>
@@ -109,8 +109,8 @@
 
         <div class="col-md-7">
           <div class="abstract">
-            <p> In this paper we explore dataset search by analysing queries specifically generated for this work through a crowdsourcing experiment and comparing them to a search log analysis of queries on data portals.
-            The change in search environment together with the task we gave people altered the generated queries. We found that queries issued in our experiment were much longer than search queries for datasets on data portals. They further contained seven times more mentions of geospatial and of temporal information and are more likely to be structured as questions. ...</p>
+            <p>The amount of data generated and published on the web is increasing rapidly, but search for structured data on the web still presents challenges. In this paper we explore dataset search by analysing queries specifically generated for this work through a crowdsourcing experiment and comparing them to a search log analysis of queries on data portals.
+The change in search environment together with the task we gave people altered the generated queries. We found that queries issued in our experiment were much longer than search queries for datasets on data portals. They further contained seven times more mentions of geospatial and of temporal information and are more likely to be structured as questions. These insights can be used to tailor search functionalities to the particular information needs and characteristics of dataset search.</p>
 
           </div>
         </div>
@@ -138,12 +138,18 @@
         </div>
         <div class="col-md-7">
           <div class="abstract">
-            <p>In this paper we focus on how a large governmental data portal in the
+            <p>The amount of data published openly on the web is increasing
+              rapidly. Most people either use web search or specialised data
+              portals, which are repositories of datasets, to search for data. Most
+              data portals today use similar faceted search interfaces. In this
+              paper we focus on how a large governmental data portal in the
               UK supports users in conducting complex search tasks involving
               data. Based on a previous interview study with users of the portal
               we constructed a typical complex work task. In this work, we
               analyzed how the current system supports users during this task
-              and subsequently identify problems with the interface. ...</p>
+              and subsequently identify problems with the interface. Based on
+              this we discuss potential research directions to improve interfaces
+              for complex data related search tasks.</p>
           </div>
         </div>
       </div>
@@ -174,7 +180,7 @@
 
         <div class="col-md-7">
           <div class="abstract">
-            <p>We discuss an approach to find un-Linked datasets and increase result relevance by offering related information. We propose generating rich profiles for datasets; counting the number and strength of relations between them and showing a graph of profiles that represents connections between different datasets. We can thereby capture correlations between datasets that can then improve the efficiency and effectiveness of data search. If developed further this would improve discoverability and reusability of datasets.</p>
+            <p>The vast amount of data on the web presents a growing need to advance data search. Rich and meaningful metadata can enhance the discovery of datasets and establish connections between them. Where metadata is not comprehensive, it can be expanded through dataset profiling. The relative importance of different types of profiles varies depending on the user’s context and the objective of the task. We discuss an approach to find un-Linked datasets and increase result relevance by offering related information. We propose generating rich profiles for datasets; counting the number and strength of relations between them and showing a graph of profiles that represents connections between different datasets. We can thereby capture correlations between datasets that can then improve the efficiency and effectiveness of data search. If developed further this would improve discoverability and reusability of datasets.</p>
 
           </div>
         </div>
@@ -202,7 +208,7 @@
         </div>
         <div class="col-md-7">
           <div class="abstract">
-            <p> Data usually needs additional context in order to be transformed into information and subsequently knowledge of an individual. Searching for data on the web requires a means to understand, analyse and interpret the data found. This can either be provided by the system; by the way context is presented; or by the user’s prior knowledge of the topic and general data literacy skills. ...</p>
+            <p>Searching on the web increasingly involves searching for data as well as searching for traditional web pages. To support learning from data on the web and facilitating learning through searching for data, the different characteristics of these sources need to be considered. Data usually needs additional context in order to be transformed into information and subsequently knowledge of an individual. Searching for data on the web requires a means to understand, analyse and interpret the data found. This can either be provided by the system; by the way context is presented; or by the user’s prior knowledge of the topic and general data literacy skills. Therefore searching for data on the web should be considered an area in its own right for future research in the context of search as a learning activity.</p>
 
           </div>
         </div>
@@ -226,7 +232,7 @@
         </div>
         <div class="col-md-7">
           <div class="abstract">
-            <p> This paper presents the findings of an interview study to understand the barriers affecting plus size people with regards to inclusivity in design in their lives. The findings suggest that the emotional responses to physical issues are important to consider and will contribute to recommendations to raise awareness and facilitate empathy.</p>
+            <p>The number of people classed as ‘plus size’, meaning overweight or obese is increasing and many feel excluded from current design. Whilst the need to cater for a diverse population in terms of anthropometry is recognized, rarely are the emotional and social aspects of interactions with design taken into account. This paper will present the findings of an interview study to understand the barriers affecting plus size people with regards to inclusivity in design in their lives. The findings suggest that the emotional responses to physical issues are important to consider and will contribute to recommendations to raise awareness and facilitate empathy.</p>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ html {
 }
 body {
   margin-bottom: 96px;
+  font-size: 125%;
 }
 .footer {
   position: absolute;

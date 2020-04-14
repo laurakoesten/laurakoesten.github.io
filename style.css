@@ -105,3 +105,33 @@ img.hero {
 a.no-decor:hover, a.no-decor:active {
   text-decoration: none;
 }
+
+.laura-paper {
+  width: 500px;
+}
+
+.laura-paper a.collapsed:after {
+  content: '+ Show More';
+}
+
+.laura-paper a:not(.collapsed):after {
+  content: '- Show Less';
+}
+
+.laura-paper #collapseExample1.collapse:not(.show) {
+  display: block;
+  /* height = lineheight * no of lines to display */
+  height: 7.4em;
+  overflow: hidden;
+}
+
+.laura-paper #collapseExample1.collapsing {
+  height: 7.4em;
+}
+
+.lauraheader {
+background-repeat: no-repeat;
+background-size: 100%;
+background-image: url(assets/hero.png);
+height: 4em;
+}

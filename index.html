@@ -29,18 +29,18 @@
   <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav style="font-size:1.3em;" class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-   <a class="navbar-brand" href="#">Navbar</a>
+   <a class="navbar-brand" href="#"></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
      <div class="navbar-nav">
-       <a class="nav-item nav-link active" href="#">Publications <span class="sr-only">(current)</span></a>
-       <a class="nav-item nav-link active" href="#">Organisation</a>
-       <a class="nav-item nav-link active" href="#">Projects</a>
-       <a class="nav-item nav-link" href="#">News</a>
+       <a class="nav-item nav-link active" href="#pub">Publications <span class="sr-only">(current)</span></a>
+       <a class="nav-item nav-link active" href="#org">Organisation</a>
+       <a class="nav-item nav-link active" href="#projects">Projects</a>
+       <a class="nav-item nav-link" href="#news">News</a>
    </div>
   </div>
 </nav>
@@ -76,7 +76,7 @@
 
     </div>
 
-    <div class="container">
+    <div id="pub" class="container">
       <h2 class="page-header">Publications</h2>
 
       <div class="row featurette bs-callout bs-callout-paper">
@@ -117,12 +117,11 @@
             </h4>
             <p class="authors"> CHI'19 Conference on Human Factors in Computing Systems <br> <span class="text-muted">Laura Koesten, Emilia Kacprzak, Jeni Tennison, Elena Simperl</span></p>
 
-            <div class="labels">
-              <span class="label label-default">collaborative tools</span>
-              <span class="label label-default">structured data</span>
-              <span class="label label-default">human data interaction</span>
-            </div>
+            <span class="badge badge-secondary">collaborative tools</span>
+            <span class="badge badge-secondary">structured data</span>
+            <span class="badge badge-secondary">human data interaction</span>
           </div>
+
           <div class="col-md-7">
             <div class="abstract">
               <p> Collaborative work with data is increasingly common and spans a broad range of activities - from creating or analysing data in a team, to sharing it with others, to reusing someone else’s data in a new context. In this paper, we explore collaboration practices around structured data and how they are supported by current technology. We present the results of an interview study with twenty data practitioners, from which we derive four high-level user needs for tool support. We compare them against the capabilities of twenty systems that are commonly associated with data activities, including data publishing software, wikis, web-based collaboration tools, and online community platforms. ...</p>
@@ -141,11 +140,10 @@
           </h4>
           <p class="authors">International Journal for Human Computer Studies<s></s> <br> <span class="text-muted">Laura Koesten, Elena Simperl, Emilia Kacprzak, Tom Blount, Jeni Tennison</span></p>
 
-          <div class="labels">
-            <span class="label label-default">dataset summarisation</span>
-            <span class="label label-default">metadata</span>
-            <span class="label label-default">human data interaction</span>
-          </div>
+          <span class="badge badge-secondary">dataset summarisation</span>
+          <span class="badge badge-secondary">metadata</span>
+          <span class="badge badge-secondary">human data interaction</span>
+
         </div>
         <div class="col-md-7">
           <div class="abstract">
@@ -164,11 +162,10 @@
               </a>
             </h4>
             <p class="authors"> International Journal on Very Large Data Bases<s></s> <br> <span class="text-muted">Adriane Chapman, Elena Simperl, Laura Koesten, George Konstantinidis, Luis-Daniel Ibez-Gonzalez, Emilia Kacprzak, Paul Groth</span></p>
-            <div class="labels">
-              <span class="label label-default">dataset search</span>
-              <span class="label label-default">human data interaction</span>
-            </div>
+            <span class="badge badge-secondary">dataset search</span>
+            <span class="badge badge-secondary">human data interaction</span>
           </div>
+
           <div class="col-md-7">
             <div class="abstract">
               <p>Generating value from data requires the ability to find, access and make sense of datasets. There are many efforts underway to encourage data sharing and reuse, from scientific publishers asking authors to submit data alongside manuscripts to data marketplaces, open data portals and data communities. Google recently beta released a search service for datasets, which allows users to discover data stored in various online repositories via keyword queries. These developments foreshadow an emerging research field around dataset search or retrieval that broadly encompasses frameworks, methods and tools that help match a user data need against a collection of datasets. Here, we survey the state of the art of research and commercial systems and discuss what makes dataset search a field in its own right, with unique challenges and open questions. We look at approaches and implementations from related areas dataset search is drawing upon, including information retrieval, databases, entity-centric and tabular search in order to identify possible paths to tackle these questions as well we immediate next steps that will take the field forward. </p>
@@ -186,14 +183,12 @@
             </a>
           </h4>
           <p class="authors"> Journal of Web Semantics <s></s> <br> <span class="text-muted">Emilia Kacprzak, Laura Koesten, Luis D Ibáñez, Tom Blount, Jeni Tennison, Elena Simperl</span></p>
-
-          <div class="labels">
-            <span class="label label-default">dataset search</span>
-            <span class="label label-default">vertical search</span>
-            <span class="label label-default">search logs</span>
-            <span class="label label-default">data portals</span>
-          </div>
+          <span class="badge badge-secondary">dataset search</span>
+          <span class="badge badge-secondary">vertical search</span>
+          <span class="badge badge-secondary">search logs</span>
+          <span class="badge badge-secondary">data portals</span>
         </div>
+        
         <div class="col-md-7">
           <div class="abstract">
             <p>In this work we contribute with a systematic study of the patterns and specific attributes that data consumers use to search for data and how it compares with general web search. We performed a query log analysis based on logs from four national open data portals and conducted a qualitative analysis of user data requests for requests issued to one of them. Search queries issued on data portals differ from those issued to web search engines in their length, topic, and structure. Based on our findings we hypothesise that portals search functionalities are currently used in an exploratory manner, rather than to retrieve a specific resource. <!--In our study of data requests we found that geospatial and temporal attributes, as well as information on the required granularity of the data are the most common features.-->...</p>
@@ -399,7 +394,7 @@
     </div><!-- /.container -->
 
 
-<div class="container">
+<div id="org" class="container">
  <h2 class="page-header">Organisation</h2>
 
  <div class="row featurette bs-callout bs-callout-paper">

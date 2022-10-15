@@ -1,0 +1,409 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Laura Koesten</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Laura Koesten</h1>
+							<p>Researcher</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">About me</span></a></li>
+								<li><a href="#publications" id="publications-link"><span class="icon solid fa-th">Publications</span></a></li>
+								<li><a href="#talks" id="Talks-link"><span class="icon solid fa-comments">Talks</span></a></li>
+								<li><a href="#organisation" id="organisation-link"><span class="icon solid fa-tasks">Organisation</span></a></li>
+								<li><a href="#teaching" id="teaching-link"><span class="icon solid fa-users">Teaching</span></a></li>
+								<li><a href="#news" id="news-link"><span class="icon solid fa-calendar-day">News</span></a></li>
+								<li><a href="#project" id="project-link"><span class="icon solid fa-sitemap">Projects</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<!--	<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+				<!--<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
+								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>-->
+
+							 <a href="#" class="image left"> <img src="images/Koesten.jpg" alt="" /></a>
+
+					 			<p>I am a postdoctoral researcher at the University of Vienna in the <a href="https://vda.cs.univie.ac.at"> Research Group for Visualization and Data Analysis </a> (Computer Science) and an affiliate researcher at <a href="https://www.kcl.ac.uk/people/laura-koesten">King’s College London</a>, UK.
+									<br> 	<br>
+									My research is looking at ways to improve human-data interaction by studying sensemaking with data and visualisations, data discovery and reuse, and ethical and collaborative aspects of data-centric work. 
+									In other words that means I research how data is used, understood, and presented by (and to) different user groups and what implications that might have.</p>
+							</div>
+							<div class="container">
+							<p class="">laura.koesten (at) univie.ac.at</a></p>
+							<p>
+              <a id="linkedin" href="https://www.linkedin.com/in/laura-koesten-234184b9" target="_blank"><img src="images/In-2C-128px-TM.png" width=5% ></a>
+              <a href="https://twitter.com/laurakoesten" target="_blank"><img src="images/TwitterLogo.png" ></a>
+              </p>
+							</div>
+					<!-- 		<footer>
+								<a href="#portfolio" class="button scrolly">	<p>laura dot koesten at uniwien dot ac dot at</p> </a>
+							</footer> -->
+
+					</section>
+
+				<!-- Publications -->
+					<section id="publications" class="three">
+						<div class="container">
+							<header>
+								<h2>Publications</h2>
+							</header>
+
+					<div class="publicationstyle">
+							<a href="https://www.sciencedirect.com/science/article/pii/S1071581920301646?dgcid=rss_sd_all" target="_blank"> Talking datasets: Understanding data sensemaking behaviours</a>
+	            <p class="tab">International Journal for Human Computer Studies <br> Laura Koesten, Kathleen Gregory, Paul Groth, Elena Simperl </p>
+
+							<a href="https://www.sciencedirect.com/science/article/pii/S2666389920301847" target="_blank"> Dataset Reuse: Translating Principles to Practice</a>
+	            <p class="tab">Cell Press Journal <br> Laura Koesten, Pavlos Vougiouklis, Elena Simperl, Paul Groth</p>
+
+							<a href="https://dl.acm.org/citation.cfm?id=3300330" target="_blank"> Collaborative Practices with Structured Data: Do Tools Support What Users Need? </a>
+	            <p class="tab">CHI'19 Conference on Human Factors in Computing Systems <br> Laura Koesten, Emilia Kacprzak, Jeni Tennison, Elena Simperl</p>
+
+							<a href="https://eprints.soton.ac.uk/438583/1/Final_thesis.pdf" target="_blank"> Thesis: A User Centred Perspective on Structured Data Discovery </a>
+							<p class="tab"> Laura Koesten</p>
+
+	            <a href="https://www.sciencedirect.com/science/article/pii/S1071581918306153"  target="_blank"> <span class="blacklink">Everything you always wanted to know about a dataset: studies in data summarisation </span> </a>
+	            <p class="tab"> International Journal for Human Computer Studies <br> Laura Koesten, Elena Simperl, Tom Blount, Emilia Kacprzak, Jeni Tennison</p>
+
+							<a href="https://link.springer.com/article/10.1007/s00778-019-00564-x"  target="_blank"> <span class="blacklink">Dataset Search: A Survey </span> </a>
+							<p class="tab"> International Journal on Very Large Data Bases <br> Adriane Chapman, Elena Simperl, Laura Koesten, George Konstantinidis, Luis-Daniel Ibez-Gonzalez, Emilia Kacprzak, Paul Groth</p>
+
+							<a href="https://dl.acm.org/citation.cfm?id=3186574"  target="_blank"> <span class="blacklink">Characterising dataset search—An analysis of search logs and data requests </span> </a>
+							<p class="tab"> Journal of Web Semantics <br> Emilia Kacprzak, Laura Koesten, Luis D Ibáñez, Tom Blount, Jeni Tennison, Elena Simperl</p>
+
+							<a href="https://dl.acm.org/citation.cfm?id=3186574"  target="_blank"> <span class="blacklink">A User Centred Perspective on Structured Data Discovery </span> </a>
+							<p class="tab"> 2018, The Web Conference (WWW'18) PhD <br> Laura Koesten</p>
+
+							<a href="https://dl.acm.org/citation.cfm?id=3186574"  target="_blank"> <span class="blacklink">Characterising Dataset Search Queries </span> </a>
+							<p class="tab">  2018, The Web Conference (WWW'18) Companion <br> Emilia Kacprzak, Laura Koesten, Jeni Tennison, Elena Simperl</p>
+
+							<a href="https://dl.acm.org/citation.cfm?id=3025838"  target="_blank"> <span class="blacklink">The Trials and Tribulations of Working with Structured Data: a Study on Information Seeking Behaviour </span> </a>
+							<p class="tab">  2017, CHI'17 Conference on Human Factors in Computing Systems <br> Laura Koesten, Emilia Kacprzak, Jeni Tennison, Elena Simperl</p>
+
+							<a href="https://dl.acm.org/citation.cfm?id=3025838"  target="_blank"> <span class="blacklink">Searching Data Portals - More Complex Than We Thought? </span> </a>
+							<p class="tab">  2016 &mdash; CHIIR 2017 <span class="text-muted">  Workshop on Supporting Complex Search Tasks <br /> Laura Koesten, Jaspreet Singh</span></p>
+
+							<a href=""  target="_blank"> <span class="blacklink">Position Paper: Dataset profiling for un-Linked Data </span> </a>
+							<p class="tab"> 2016 &mdash; PROFILES@ ESWC  <br> <span class="text-muted">Emilia Kacprzak, Laura Koesten, Tom Heath, and Jeni Tennison</span></p>
+
+							<a href=""  target="_blank"> <span class="blacklink">Learning when searching for web data </span> </a>
+							<p class="tab"> 2016 &mdash; SAL@SIGIR 2016  <br> <span class="text-muted">Laura Koesten, Emilia Kacprzak and Jeni Tennison</span></p>
+
+							<a href=""  target="_blank"> <span class="blacklink">Plus size and inclusivity in design </span> </a>
+							<p class="tab"> 2015 &mdash; Ergonomics & Human Factors <br> <span class="text-muted">Laura Koesten, Diane Gyi, Annabel Masson</span></p>
+</div>
+</div>
+
+</section>
+<!-- Talks -->
+	<section id="talks" class="two">
+		<div class="container" >
+
+			<header>
+				<h2>Talks</h2>
+			</header>
+
+
+	<div class="publicationstyle">
+
+		Invited speaker and co-facilitator of the Strand-Aldwych Data Stories Workshop, by Kings College London & the London Westminster City Council  <br>
+		<p class="tab"> Title: The Data Stories Project + Data visualisation (a primer) <br>
+		Vienna, Austria
+		2022 </p>
+
+		Invited speaker at Data Stories 2022, conference by the Central European University  <br>
+		<p class="tab"> Title: Talking Charts <br>
+		Vienna, Austria
+		2022 </p>
+
+		Invited speaker at the Cognitive Science Lecture Series, University of Vienna  <br>
+		<p class="tab"> Title: Human Data Interaction  <br>
+		Vienna, Austria
+		2021 </p>
+
+		Invited speaker at the uniMind-University Meets Industry workshop  <br>
+		<p class="tab"> Title: Online Teamwork: Social factors in digital communities  <br>
+		Vienna, Austria
+		2021 </p>
+
+	 Guest speaker at TGSW 2020, Open Data Workshop  <br>
+	 <p class="tab"> Title: Dataset reuse indicators: perspectives of data consumers and data producers  <br>
+	 Tsukuba, Japan
+	 2020 </p>
+
+	 Invited speaker at UK underwater: Data-driven approaches to communicating flooding <br>
+	 <p class="tab"> Title:  Studies in Human Data Interaction - Data Discovery, Sensemaking and Reuse, June 2020 <br>
+	 Online (UK)
+	 2020 </p>
+
+	 Gekoboard, a data visualisation company <br>
+	 <p class="tab"> Title: User centred data discovery, data sharing and reuse <br>
+	 London, UK
+	 2020 </p>
+
+	 Wirtschaftsuniversität Wien, Vienna, Austria <br>
+	 <p class="tab"> Title: A user centred perspective on the discovery of structured data.  <br>
+	 Vienna, Austria
+	 2019 </p>
+
+	 Data Archiving and Networked Services - DANS <br>
+	 <p class="tab"> Title: Data discovery from a user perspective.
+	 Den Haag, Netherlands
+	 2019 </p>
+
+	 Lunchtime lecture at The Open Data Institute <br>
+	 <p class="tab">Title: Why can‘t I find data?  <br>
+	 London, UK
+	 2018 </p>
+
+	 Data and Storytelling Workshop, The Open Data Institute <br>
+	 <p class="tab">Title: Finding data on the web <br>
+	 London, UK
+	 2018 </p>
+
+	</div>
+	</div>
+</section>
+
+<!-- Organisation -->
+	<section id="organisation" class="">
+	<div class="container">
+
+		<header>
+			<h2>Community engagement & organisation</h2>
+		</header>
+	<div class="publicationstyle">
+
+		<li><a href="https://mediafutures.eu/our-advisory-board/" target="_blank"><span class="blacklink">Advisory Board member of the MediaFutures project (a Data-driven innovation hub)</span></a>
+			<p><strong>EU Horizon 2020 Research and Innovation programme</strong></p>
+			<div class="col-lg-4" >
+<!--			<img src="images/Datastories-Symp.png" alt="" width=30%>-->
+			</div>
+		</li>
+
+		<li><a href="https://kinderuni.at/en/vienna-childrens-university/program/" target="_blank"><span class="blacklink">Co-facilitator of a `Kinderuni' (Children University) workshop at the University of Vienna</span></a>
+			<p><strong></strong></p>
+			<div class="col-lg-4" >
+<!--			<img src="images/Datastories-Symp.png" alt="" width=30%>-->
+			</div>
+		</li>
+
+ 		<div class="row">
+			<div class="col-lg-8" align="left" >
+				<ul>
+	 				<li><a href="http://datastories.co.uk/symposium/" target="_blank"><span class="blacklink">Datastories Symposium 2020</span></a>
+						<p><strong>King's College London</strong></p>
+						<div class="col-lg-4" >
+					  <img src="images/Datastories-Symp.png" alt="" width=30%>
+		 				</div>
+					</li>
+			</div>
+		</div>
+
+   <li>  <a href="https://2020.eswc-conferences.org/" target="_blank">
+			 <span class="blacklink">ESWC2020 Track Chair of the Social and Human Aspects of the Semantic Web Track </span>
+		 </a>
+		 <p><strong>ESWC 2020</strong> <span class="text-muted"></span></p></li>
+	 <li><a href="https://2019.eswc-conferences.org/" target="_blank">
+		 <span class="blacklink">EU Project Networking Chair</span>
+	 </a>
+	 <p><strong>ESWC 2019</strong> <span class="text-muted"></span></p></li>
+
+	 <li>
+ <a href="http://iswc2018.semanticweb.org/organization/" target="_blank">
+    <span class="blacklink">Sponsorship Chair</span>
+  </a>
+ <p><strong>International Semantic Web Conference, ISWC 2018</strong> <span class="text-muted"></span></p>
+</li>
+
+  <li>
+		<a href="https://profiles-datasearch.github.io/2018/" target="_blank">
+	 <span class="blacklink">Organising Comittee</span>
+  </a>
+ <p ><strong>Int. Workshop on Profiling and Searching Data on the Web <br> @ The Web Conference 2018, Lyon, FR</strong> <br> <span class="text-muted"></span></p>
+</li>
+
+<li>
+	 <a href="https://profiles-datasearch.github.io/2018/" target="_blank"> <span class="blacklink">Organising Comittee</span>
+	 </a>
+	 <p ><strong>Int. Workshop on Profiling and Searching Data on the Web <br> @ The Web Conference 2018, Lyon, FR</strong> <br> <span class="text-muted"></span></p></li>
+
+<li>
+	<a href="https://datasearch-ws.github.io/2018/" target="_blank">
+  <span class="blacklink">Chair</span>
+  </a>
+  <p><strong>International Workshop on DATA:SEARCH <br> @ SIGIR 2018, Ann Arbor, USA</strong> <span class="text-muted"></span></p>
+</li>
+ </ul>
+</div>
+
+
+
+</section>
+
+<!-- Teaching -->
+
+<section id="teaching" class="two">
+<div class="container">
+
+	<header>
+		<h2>Teaching</h2>
+	</header>
+
+
+<!--  <div class="tab"> -->
+<a href="https://ufind.univie.ac.at/de/person.html?id=113079" target="_blank">
+	<span class="blacklink">Winter 2022: <br>  Data Visualization, Contributor to the Cognitive Science Lecture Series, Supervision <br> Summer 2022:<br>  Human Computer Interaction, Data Visualization, Supervision   </span>
+</a>
+<br>
+<a href="https://ufind.univie.ac.at/de/person.html?id=113079" target="_blank">
+	<span class="blacklink"> Winter 2021:  <br> Data Visualization, Contributor to the Cognitive Science Lecture Series, Supervision  <br> Summer 2021: <br> Human Computer Interaction, Supervision <br>  </span>
+</a>
+<br>
+</div>
+<!-- </div>-->
+</section>
+
+
+<!-- Projects -->
+<section id="projects" class="">
+<div class="container">
+
+<header>
+	<h2>Projects</h2>
+</header>
+
+<h4>Current</h4>
+<br>
+<p class="publicationstyle">Talking Charts - How do people make sense of data visualizations? <br> <span class="text-muted"> University of Vienna </span></p>
+<a href="https://talking-charts.vda.univie.ac.at/talkingcharts.html"> <img src="images/talkingcharts.png" alt="" width=43% data-holder-rendered="true">
+
+ <h5>Collaboration</h5>
+ <br>
+ <p class="publicationstyle">Interpretability and Explainability as Drivers to Democracy <br> <span class="text-muted"> University of Vienna </span></p>
+ <a href="https://talking-charts.vda.univie.ac.at/democracy.html"> <
+
+
+
+<h4>Past</h4>
+
+<br>
+<!--   <div class='parent'>
+  <div class='child'>   <a href="http://datastories.co.uk/"> <img src="images/datastories.png" alt="" width=80% data-holder-rendered="true"> </div>
+    <img src="images/tbfy.png" alt="" width=17% data-holder-rendered="true"></div> -->
+
+
+  <p class="tab">Data Stories - Engaging with data in a post-truth environment<br> <span class="text-muted"> King's College London, University of Southampton, The ODI </span></p>
+  <img class=".img-thumbnail" alt="" src="images/datastories.png" width=20% data-holder-rendered="true">
+	<p class="tab">TheyBuyForYou - Enabling procurement data value chains <br> <span class="text-muted">University of Southampton </span></p>
+	<img class=".img-thumbnail" alt="" src="images/tbfy.png" width=17% data-holder-rendered="true">
+	<p class="tab"> <a href= "https://cordis.europa.eu/project/id/642795"> WDAQUA - Answering questions using web data <br> <span class="text-muted">University of Southampton </span></p>
+	<img class=".img-thumbnail" alt="" src="" width=17% data-holder-rendered="true">
+
+</div>
+
+ </section>
+<!-- News -->
+	<section id="news" class="three">
+	<div class="container">
+
+	<header>
+		<h2>News</h2>
+	</header>
+	<p class="tab">-under construction- </p>
+	</div>
+				<!-- Contact
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>laura dot koesten at uniwien dot ac dot at</p> -->
+
+		<!-- 						<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+		-->
+
+
+	</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

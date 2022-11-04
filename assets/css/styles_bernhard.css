@@ -1,0 +1,14 @@
+.projects{
+  float:left;
+  padding-top:2em;
+  width:100%;
+  display: flex;
+/* justify-content: center; */
+  align-items: center;
+}
+.projects-child{
+  width: 49%;
+  display: inline-block;
+  height: 5em;
+  align-items: center;
+}

@@ -202,7 +202,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 0.75em;
 	}
 
 	br.clear {

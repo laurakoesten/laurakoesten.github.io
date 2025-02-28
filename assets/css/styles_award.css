@@ -1,0 +1,57 @@
+/* Base Section Style */
+#award {
+    position: relative;
+    color: white;
+    padding: 60px 0;
+}
+
+/* style="position: absolute; top: 0; left: 0; width: 100%; height: auto; 
+ object-fit: contain;
+object-position: center;
+
+z-index: -1;
+opacity: 0.8;
+" */
+
+.award-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* Show full picture on desktop */
+    object-position: center;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.container-award {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    min-height: 50vh;
+}
+
+/* Header Text Style */
+.container-award header h2 {
+    color: rgb(195, 195, 195);
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 736px) {
+
+    #award {
+        padding: 30px 0;
+    }
+
+    .award-img {
+        top: 15%;
+        object-fit: cover;
+    }
+
+    .container-award {
+        min-height: 25vh;
+        padding: 10px;
+    }
+}

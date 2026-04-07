@@ -1,56 +1,105 @@
-/* Base Section Style */
+/* Awards section with background image + compact items. */
+
 #award {
-    position: relative;
-    color: white;
-    padding: 60px 0;
+  position: relative;
+  color: #ffffff;
+  padding: 60px 0;
 }
 
-/* style="position: absolute; top: 0; left: 0; width: 100%; height: auto; 
- object-fit: contain;
-object-position: center;
-
-z-index: -1;
-opacity: 0.8;
-" */
+.award-hero {
+  position: relative;
+}
 
 .award-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    object-position: center;
-    z-index: -1;
-    opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  z-index: -1;
+  opacity: 0.85;
 }
 
 .container-award {
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    min-height: 50vh;
+  background-color: rgba(0, 0, 0, 0.34);
+  padding: 20px;
 }
 
-/* Header Text Style */
 .container-award header h2 {
-    color: rgb(195, 195, 195);
-    margin-bottom: 20px;
+  color: rgb(235, 235, 235);
+  margin-bottom: 18px;
 }
 
-/* Responsive Design */
+.award-list {
+  margin-top: 0.5rem;
+}
+
+.award-item {
+  align-items: start;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  padding: 0.55rem 0;
+}
+
+.award-item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.award-year,
+.award-title {
+  margin: 0;
+}
+
+.award-year {
+  color: rgb(235, 235, 235);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding-top: 0.1rem;
+  text-transform: uppercase;
+}
+
+.award-title {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.award-title a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.award-title a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 @media (max-width: 736px) {
+  #award {
+    padding: 30px 0;
+  }
 
-    #award {
-        padding: 30px 0;
-    }
+  .award-img {
+    height: 100%;
+    object-fit: cover;
+  }
 
-    .award-img {
-        height: 100%;
-        object-fit: cover;
-    }
+  .container-award {
+    padding: 10px;
+  }
 
-    .container-award {
-        min-height: 25vh;
-        padding: 10px;
-    }
+  .award-item {
+    gap: 0.25rem;
+    grid-template-columns: 1fr;
+  }
+
+  .award-year {
+    padding-top: 0;
+  }
 }
